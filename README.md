@@ -18,9 +18,9 @@ Estoy trabajando en la mejora de este juego y en la refactorización del código
 
 ## Links
 
-- [Repo](https://github.com/Adalab/modulo-3-evaluacion-final-albavidalm "Repo")
+- [Code](https://github1s.com/albavidalm/tic-tac-toe "Code")
 
-- [Live](http://beta.adalab.es/modulo-3-evaluacion-final-albavidalm/#/ "Live View")
+- [Live](https://albavidalm.github.io/tic-tac-toe/ "Live View")
 
 ## Commands
 
