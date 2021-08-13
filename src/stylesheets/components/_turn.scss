@@ -1,0 +1,15 @@
+.turn__title {
+  padding: 20px 0 10px 0;
+  color: transparent;
+  font-family: $font-main;
+  &--X {
+    color: $first-color;
+  }
+  &--O {
+    color: $second-color;
+  }
+}
+
+.turnspan {
+  font-size: 1.6rem;
+}

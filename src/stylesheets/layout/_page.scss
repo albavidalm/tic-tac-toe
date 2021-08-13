@@ -1,0 +1,31 @@
+.page__header {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  color: $color-title;
+  font-family: $font-main;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 3rem;
+}
+
+.button__start {
+  height: 30px;
+  width: 90px;
+  margin-top: 10px;
+  border-radius: 10px;
+  /*border: 1px solid $second-color;*/
+  line-height: 31px;
+  cursor: pointer;
+  color: $second-color;
+  font-family: $font-main;
+  text-align: center;
+  background-color: white;
+  transition: all 0.5s ease 0.1s;
+  &:hover {
+    background-color: white;
+    color: $first-color;
+    transform: scale(1.1);
+    -webkit-box-shadow: 0px 5px 10px 3px rgba(0, 0, 0, 0.48);
+    box-shadow: 0px 5px 10px 3px rgba(0, 0, 0, 0.48);
+  }
+}

@@ -1,0 +1,44 @@
+.square {
+  color: transparent;
+  width: 100px;
+  height: 100px;
+  background-color: #ffdc95;
+  margin: 5px;
+  transition: all 0.4s;
+  border-radius: 0%;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  cursor: pointer;
+  &__X {
+    color: transparent;
+    background-color: $first-color;
+    cursor: default;
+    clip-path: polygon(
+      56% 16%,
+      0 0,
+      18% 29%,
+      0 61%,
+      23% 100%,
+      26% 58%,
+      59% 90%,
+      70% 69%,
+      100% 89%,
+      88% 40%,
+      88% 0,
+      55% 44%
+    );
+  }
+  &__O {
+    color: transparent;
+    background-color: $second-color;
+    cursor: default;
+    clip-path: polygon(
+      42% 1%,
+      87% 20%,
+      91% 58%,
+      77% 85%,
+      26% 100%,
+      0% 60%,
+      13% 22%
+    );
+  }
+}
