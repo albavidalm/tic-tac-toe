@@ -1,54 +1,68 @@
 # TIC TAC TOE
 
-## Descripción
+## Table of contents
 
-Juego TIC TAC TOE (3 en raya) para dos jugadores hecho con React.
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Stage](#stage-🏗)
+  - [Screenshots](#screenshots)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+- [Author](#author)
+- [Support](#🖤-support)
 
-En pantalla se mostrará quién tiene el siguiente movimiento a realizar. Si algún jugador hace 3 en raya o hay un empate, los movimentos se bloquerán para que la partida se detenga.
+## Overview
 
-Si en algún momento quieres volver a empezar puedes darle al botón Start Game o refrescar la pantalla de tu navegador.
+### The challenge
 
-## Screenshots
+- A functional tic-tac-toe 2 players game.
+- Multiple JavaScript files.
+- Clip-paths figures designed by myself
+- Animations in cells when user clicks on them.
+- Show the player for each movement with its own figure.
+- Stop the game when there's no more movement and block them when there's a winner.
+- A button to restart the game when user wants.
 
-![Home Page](src/images/Tictactoe.gif "Home Page")
+### Stage 🏗
 
-## Sobre el código
+I'm working on improving this game adding some more functionalities and refactoring the code.
 
-Estoy trabajando en la mejora de este juego y en la refactorización del código.
+### Screenshots
 
-## Links
+![](src/images/Tictactoe.gif)
 
-- [Code](https://github1s.com/albavidalm/tic-tac-toe "Code")
+### Links
 
-- [Live](https://albavidalm.github.io/tic-tac-toe/ "Live View")
+- Code: [https://github1s.com/albavidalm/tic-tac-toe](https://github1s.com/albavidalm/tic-tac-toe)
 
-## Commands
+- Live Site URL: [https://albavidalm.github.io/tic-tac-toe/](https://albavidalm.github.io/tic-tac-toe/)
 
-En el directorio del proyecto puedes ejecutar:
+## My process
 
-### `npm start" : "react-scripts start"`,
+### Built with
 
-La aplicación está construida usando `create-react-app`, por lo que este comando ejecuta la aplicación en modo de desarrollo. Abre [http://localhost:3000](http://localhost:3000) para verlo en el navegador. También debes ejecutar el archivo del servidor para ejecutar completamente la aplicación. La página se recargará si realizas modificaciones.
-También verás errores de lint en la consola.
-
-## Built With
-
-- JavaScript
-- React
-- classNames
-- NPM
 - HTML
 - CSS
 - Sass
+- Flexbox
+- Animations
+- JavaScript
+- React
+- classNames
 
-## Autora
+### What I learned
 
-**Alba Vidal**
+I made my first clip-path and refreshed my JavaScript (conditional operators, arrays and loops mostly) and React skills.
+I worked with the "classNames" JavaScript utility for conditionally joining classNames together which allowed me to have a shorter and more optimized code.
 
-- [Profile](https://github.com/albavidalm "Alba Vidal")
-- [Email](mailto:albavidalm@gmail.com?subject=Hi "Hi!")
-- [Linkedin](https://www.linkedin.com/in/albavidalm/ "Let's work together!")
+## Author
+
+- GitHub: [https://github.com/albavidalm](https://github.com/albavidalm)
+- Email: [albavidalm @ gmail.com](mailto:albavidalm@gmail.com?subject=Hi)
+- Linkedin: [https://www.linkedin.com/in/albavidalm/](https://www.linkedin.com/in/albavidalm/)
 
 ## 🖤 Support
 
-Compartir es vivir, contributiones y sugerencias son siempre bienvenidas.
+Sharing is caring, contributions and suggestions are always welcome.
